@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheRises AI Academy - Login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Side (Image only) -->
+      <div class="image-side">
+        <img
+          src="login.jpg"
+          alt="Empowering Women with AI"
+          class="side-image"
+        />
+      </div>
+
+      <!-- Right Side (Logo + Branding + Forms) -->
+      <div class="form-side">
+        <div class="branding">
+          <img src="logo.png" alt="SheRises Academy Logo" class="logo" />
+        </div>
+
+        <!-- Login Form -->
+        <div id="loginForm">
+          <h2>✨ Welcome Back and Let's Rise & Lead with AI ✨</h2>
+          <form>
+            <input type="text" placeholder="Username or Email" required />
+            <input type="password" placeholder="Password" required />
+            <button type="submit">Login</button>
+          </form>
+          <p class="toggle">
+            Don’t have an account? <a href="#" id="showSignup">Create one</a>
+          </p>
+        </div>
+
+        <!-- Signup Form -->
+        <div id="signupForm" class="hidden">
+          <h2>🚀 Join SheRises AI Academy</h2>
+          <form>
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Password" required />
+            <input type="password" placeholder="Confirm Password" required />
+            <button type="submit">Create Account</button>
+          </form>
+          <p class="toggle">
+            Already have an account? <a href="#" id="showLogin">Login</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
