@@ -122,3 +122,176 @@ button:hover {
 .hidden {
   display: none;
 }
+
+/* Navbar */
+header {
+  background: magenta;
+  padding: 15px 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links .btn {
+  background: blueviolet;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  background: blueviolet;
+}
+
+.hero-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: magenta;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background: blueviolet;
+  color: purple;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-img {
+  flex: 1;
+}
+
+.hero-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* About */
+.about {
+  padding: 60px 40px;
+  text-align: center;
+  background: magenta;
+}
+
+.about h2 {
+  margin-bottom: 15px;
+  color: blueviolet;
+}
+.testimonials h2 {
+  color: blueviolet;
+}
+
+/* Testimonials */
+.testimonials {
+  background: magenta;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+/* Call to Action Section */
+.cta {
+  padding: 60px 40px;
+  text-align: center;
+  background: blueviolet;
+  color: #fff;
+}
+
+/* Animated Join Now Button */
+.cta-btn {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 12px 30px;
+  background: #fff; /* button background */
+  color: blueviolet; /* button text */
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cta-btn:hover {
+  box-shadow: 0 0 15px #fff, 0 0 25px #fff;
+  transform: translateY(-3px); /* slight lift */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+}
