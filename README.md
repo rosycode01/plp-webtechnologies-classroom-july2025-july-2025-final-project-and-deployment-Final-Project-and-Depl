@@ -108,3 +108,55 @@ The **Careers Page** is part of the SheRises AI Women Academy website, a platfor
 - **HTML5** → Structure of the page
 - **CSS3** → Styling and responsive design
 - **JavaScript** → Interactivity (mentorship application alerts)
+
+# Contact Page - SheRises AI Women Academy
+
+The **Contact Page** is part of the SheRises AI Women Academy website, created to provide visitors with an easy way to connect with the academy.  
+It includes a simple contact form and social media links to strengthen communication between the academy and its community.
+
+---
+
+## 🌟 Features
+
+- **Navigation Bar**  
+  Quick access to Home, Careers, Contact, Donate, and Login pages.
+
+- **Contact Form**  
+  A form where users can fill in:
+
+  - Name
+  - Email
+  - Message
+
+- **Form Submission**  
+  JavaScript is used for basic validation before submission.  
+  (Currently no backend integration — can be extended later.)
+
+- **Social Media Links**  
+  Links to official SheRises social handles (e.g., Facebook, LinkedIn, Twitter, Instagram).
+
+- **Responsive Layout**  
+  Optimized for desktop and mobile view.
+
+- **Footer**  
+  Branding and empowerment tagline.
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** → Page structure & form
+- **CSS3** → Styling & responsive design
+- **JavaScript (Vanilla JS)** → Form validation / interactivity
+
+---
+
+## 🚀 How to Use
+
+1. Clone or download this project.
+2. Open `contact.html` in a browser.
+3. Enter your details in the form and click **Send**.
+   - If inputs are invalid, a JavaScript alert will guide the user.
+4. Explore the social media links in the footer.
+
+---
