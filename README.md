@@ -209,3 +209,5 @@ It is designed to be simple, intuitive, and responsive — making it easy for vi
 4. Click **Donate Now** → You’ll see a confirmation message.
 
 ---
+
+I then moved all images into one folder called images,as well as all html files into one folder called html and updated their paths in different pages
