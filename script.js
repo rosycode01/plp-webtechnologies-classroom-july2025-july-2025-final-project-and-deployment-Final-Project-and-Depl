@@ -13,4 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
     signupForm.classList.add("hidden");
     loginForm.classList.remove("hidden");
   });
+  
 });
+
+function applyMentorship(program) {
+  alert(`Thank you for your interest! You have applied for the ${program} program. We will contact you soon.`);
+}

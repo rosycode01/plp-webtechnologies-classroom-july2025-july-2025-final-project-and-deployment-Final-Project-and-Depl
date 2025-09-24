@@ -295,3 +295,241 @@ footer {
   background: #333;
   color: #fff;
 }
+
+/* Contact Page */
+.contact {
+  padding: 60px 40px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 32px;
+  color: blueviolet;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.contact-form button {
+  width: 40%;
+  margin: 0 auto;
+  padding: 12px;
+  background: blueviolet;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  box-shadow: 0 0 15px #8a2be2, 0 0 25px #8a2be2;
+  transform: translateY(-3px);
+}
+
+/* Footer social links */
+.social-links {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: blueviolet;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #8a2be2;
+}
+
+.thank-you {
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Job Board */
+.job-board {
+  padding: 2rem;
+  background: #fff;
+}
+.job-board h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Mentorship */
+.mentorship {
+  padding: 2rem;
+  background: #f2e9f9;
+}
+.mentorship h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.mentor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+.mentor-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.mentor-card h3 {
+  margin-bottom: 0.8rem;
+  color: #5a2a82;
+}
+.mentor-card p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+.mentor-card button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background: #5a2a82;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.mentor-card button:hover {
+  background: #7b3ea9;
+}
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: #5a2a82;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.navbar .logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-links a.active {
+  border-bottom: 2px solid #ffd700;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #f2e9f9;
+}
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.1rem;
+  color: #444;
+}
+/* Career Paths Section */
+.career-paths {
+  padding: 3rem 2rem;
+  background: #f9fafb; /* soft gray background */
+  text-align: center;
+}
+
+.career-paths h2 {
+  font-size: 2rem;
+  color: #1f2937; /* dark gray */
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.career-paths .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.career-paths .card {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.career-paths .card h3 {
+  font-size: 1.25rem;
+  color: blueviolet;
+  margin-bottom: 0.75rem;
+}
+
+.career-paths .card p {
+  font-size: 1rem;
+  color: #4b5563; /* medium gray */
+  line-height: 1.6;
+}
+
+/* Hover effect */
+.career-paths .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}

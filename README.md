@@ -67,3 +67,44 @@ It is featuring key sections to engage visitors and guide them to join the acade
 - Add **About**, **Testimonials**, **Careers**, and **Contact** pages.
 - Implement interactive animations and responsive design for mobile devices.
 - Add a **Donate** page to support the academy.
+
+# Careers Page - SheRises AI Women Academy
+
+The **Careers Page** is part of the SheRises AI Women Academy website, a platform designed to empower women in technology and artificial intelligence (AI). This page showcases AI career paths, mentorship opportunities, and guidance for women looking to grow professionally.
+
+---
+
+## 🌟 Features
+
+- **Navigation Bar**  
+  Quick access to Home, Careers, Contact, Donate, and Login pages.
+
+- **Hero Section**  
+  Highlights the mission of career growth and global opportunities.
+
+- **AI Career Paths**
+
+  - Data Scientist
+  - AI Engineer
+  - AI Policy Specialist
+
+- **Mentorship Opportunities**  
+  Interactive mentorship cards with an **Apply Now** button that triggers a JavaScript alert:
+
+  - AI Career Mentorship
+  - Entrepreneurship Mentorship
+  - Tech Upskilling Guidance
+
+- **Responsive Design**  
+  Works on desktop and mobile screens with modern layout and styling.
+
+- **Footer**  
+  Branding and empowerment message.
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** → Structure of the page
+- **CSS3** → Styling and responsive design
+- **JavaScript** → Interactivity (mentorship application alerts)
