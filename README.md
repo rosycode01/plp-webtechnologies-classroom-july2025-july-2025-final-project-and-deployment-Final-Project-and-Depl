@@ -212,4 +212,4 @@ It is designed to be simple, intuitive, and responsive — making it easy for vi
 
 I then moved all images into one folder called images,as well as all html files into one folder called html and updated their paths in different pages
 
-Updated the home.html file to index.html for easy deployment
+Updated the home.html file to index.html and changed file paths for easy deployment
