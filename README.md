@@ -159,4 +159,53 @@ It includes a simple contact form and social media links to strengthen communica
    - If inputs are invalid, a JavaScript alert will guide the user.
 4. Explore the social media links in the footer.
 
+# Donate Page - SheRises AI Women Academy
+
+The **Donate Page** allows supporters and well-wishers to contribute towards empowering women in AI and technology.  
+It is designed to be simple, intuitive, and responsive — making it easy for visitors to give support.
+
+---
+
+## 🌟 Features
+
+- **Navigation Bar**  
+  Consistent navigation with links to Home, Careers, Contact, Donate, and Login pages.
+
+- **Donation Form**
+
+  - Input fields for donor’s name and email.
+  - Donation amount selection (preset values + custom option).
+  - Choice of payment method (Credit Card, PayPal, Mobile Money).
+  - Submit button to confirm donation.
+
+- **Form Validation (JavaScript)**  
+  Ensures that the donor enters all required information correctly before submitting.
+
+- **Responsive Layout**  
+  Works across desktops, tablets, and mobile devices.
+
+- **Thank You Interaction**  
+  Displays a success message when a donor submits the form.
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** → Page structure and form fields
+- **CSS3** → Styling and responsive design
+- **JavaScript (Vanilla JS)** → Form validation and donation confirmation alerts
+
+---
+
+## 🚀 How to Use
+
+1. Clone or download the project.
+2. Open `donate.html` in your browser.
+3. Fill in your details:
+   - Name
+   - Email
+   - Donation amount
+   - Payment method
+4. Click **Donate Now** → You’ll see a confirmation message.
+
 ---

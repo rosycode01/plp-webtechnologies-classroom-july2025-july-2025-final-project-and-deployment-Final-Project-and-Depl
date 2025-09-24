@@ -35,3 +35,24 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     alert("Please fill in all fields.");
   }
 });
+
+// Set donation amount when user clicks a button
+function setAmount(value) {
+  document.getElementById("amount").value = value;
+}
+
+// Handle donation form submission
+document.getElementById("donationForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const amount = document.getElementById("amount").value;
+
+  if (name && email && amount > 0) {
+    alert(`Thank you, ${name}! You have donated $${amount}. A receipt will be sent to ${email}.`);
+    document.getElementById("donationForm").reset();
+  } else {
+    alert("Please fill in all fields and enter a valid donation amount.");
+  }
+});

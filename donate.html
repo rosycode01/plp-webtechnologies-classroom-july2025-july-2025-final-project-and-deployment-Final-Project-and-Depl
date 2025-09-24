@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate | SheRises AI Women Academy</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="logo.png" alt="Logo" />
+          <h2>SheRises Academy</h2>
+        </div>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="donate.html" class="active">Donate</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero donate-hero">
+      <h1>Support SheRises AI Women Academy</h1>
+      <p>Your contribution helps empower women to rise in AI and technology.</p>
+    </section>
+
+    <!-- Donation Section -->
+    <section class="donate">
+      <h2>Make a Donation</h2>
+      <p>Select an amount or enter your own to support our mission.</p>
+
+      <div class="donation-options">
+        <button onclick="setAmount(10)">$10</button>
+        <button onclick="setAmount(25)">$25</button>
+        <button onclick="setAmount(50)">$50</button>
+        <button onclick="setAmount(100)">$100</button>
+      </div>
+
+      <form id="donationForm">
+        <div class="form-group">
+          <label for="amount">Donation Amount (USD)</label>
+          <input
+            type="number"
+            id="amount"
+            placeholder="Enter amount"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <button type="submit" class="btn">Donate Now</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 SheRises AI Women Academy | Empowering Women Through AI</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
